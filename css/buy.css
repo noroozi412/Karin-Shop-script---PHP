@@ -1,0 +1,110 @@
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: #f7f7f7;
+    font-family: IRANSans, "IRANSans";
+    font-size: 0.9rem;
+    color: #333;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .myContainer {
+    max-width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  /* navbar */
+
+header .search-container {
+  width: 50%;
+}
+
+header .search-container input {
+  padding: .75rem 1rem;
+  background-color: #ddd;
+  border-radius: 20px;
+  text-align: start;
+  border: 0;
+  outline: 0;
+  padding-right: 2.5rem;
+}
+
+header .navbar-nav .nav-item:hover {
+  border-bottom: 1px solid red;
+}
+
+
+/* footer */
+
+.top-footer-detail img {
+  max-width: 150px;
+}
+
+.top-footer-features img {
+  max-width: 64px;
+}
+
+.bottom-footer .item h5 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.bottom-footer .item li {
+  margin-bottom: .75rem;
+}
+
+.bottom-footer .item li a {
+  color: #999;
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+
+.bottom-footer .emailInput {
+  background-color: #ddd;
+  border-radius: 0 20px 20px 0;
+}
+
+.bottom-footer .submitInput {
+  width: 60px;
+  background-color: #2d3436;
+  color: white;
+  border: 0; outline: 0;
+  border-radius: 20px 0 0 20px;
+}
+
+
+/* media queries */
+
+@media screen and (max-width: 768px) {
+  
+  .myContainer {
+    max-width: 100%;
+  }
+  
+  
+  .borderless-md {
+    border: none !important;
+  }
+  
+  .roundedless-md {
+    border-radius: 0 !important;
+  }
+  
+  header .search-container {
+    width: 100%;
+  }
+  
+  }
